@@ -8,7 +8,8 @@ def main():
     """
     wind = Wind()
     u = wind.get_wind_array()
-    pmsg.test(u)
+    # pmsg.test(u)
+    pmsg.d_axis_loop(1)
 
 
 if __name__ == "__main__":

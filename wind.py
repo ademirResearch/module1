@@ -14,10 +14,9 @@ class Wind:
 
     def get_wind_array(self):
         """
-
-        :return:
-        :rtype:
+        :return: Wind speed array from csv file
+        :rtype: list
         """
-        plt.plot(self.df.Speed)
-        plt.show()
+        # plt.plot(self.df.Speed)
+        # plt.show()
         return self.df.Speed
